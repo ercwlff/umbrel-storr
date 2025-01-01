@@ -10,11 +10,13 @@ services:
   server:
     image: ghcr.io/jorenn92/maintainerr:2.5.0
     user: "1000:1000"
-    volumes:
-      - type: bind
-        source: ${APP_DATA_DIR}/data
-        target: /opt/data
     environment:
+      - PUID=1000
+      - PGID=1000
       - TZ=${TZ:-UTC}
+      - DATA_DIR=/opt/data
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/opt/data:rw
+      - ${UMBREL_ROOT}/data/storage:/storage:ro
     restart: on-failure
     
