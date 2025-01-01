@@ -4,7 +4,7 @@ category: media
 name: Maintainerr
 version: "2.5.0"
 tagline: The Perfect Media Janitor
-icon: https://maintainerr.info/images/logo.svg
+icon: https://docs.maintainerr.info/images/logo_icon.svg
 description: >-
   Maintainerr is an automated media management tool that helps keep your Plex, Jellyfin, or Emby libraries clean and organized.
 
@@ -24,9 +24,8 @@ repo: https://github.com/jorenn92/maintainerr
 support: https://github.com/jorenn92/maintainerr/issues
 port: 6246
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://maintainerr.info/images/main-screenshot.png
+  - https://maintainerr.info/images/rules-screenshot.png
 releaseNotes: >-
   Initial release of Maintainerr on Umbrel.
   
