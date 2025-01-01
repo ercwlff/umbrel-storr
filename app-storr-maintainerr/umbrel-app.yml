@@ -1,0 +1,45 @@
+manifestVersion: 1
+id: maintainerr
+category: media
+name: Maintainerr
+version: "2.5.0"
+tagline: The Perfect Media Janitor
+icon: https://maintainerr.info/images/logo.svg
+description: >-
+  Maintainerr is an automated media management tool that helps keep your Plex, Jellyfin, or Emby libraries clean and organized.
+
+
+  It automatically monitors your media server's watch history and can remove content based on customizable rules, helping you save precious storage space.
+  Maintainerr integrates seamlessly with your existing media server and can be configured to maintain your libraries exactly how you want them.
+
+
+  🛠️ SET-UP INSTRUCTIONS
+
+  During initial setup, you'll need to connect Maintainerr to your media server (Plex/Jellyfin/Emby) and configure your desired retention rules.
+  The application will then automatically manage your media based on these settings.
+
+developer: Jorenn92
+website: https://maintainerr.info
+repo: https://github.com/jorenn92/maintainerr
+support: https://github.com/jorenn92/maintainerr/issues
+port: 6246
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Initial release of Maintainerr on Umbrel.
+  
+  Features include:
+  - Automatic media cleanup based on watch history
+  - Support for Plex, Jellyfin, and Emby
+  - Customizable retention rules
+  - Detailed statistics and reporting
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+permissions:
+  - STORAGE
+submitter: ercwlff
+submission: https://github.com/jorenn92/maintainerr
