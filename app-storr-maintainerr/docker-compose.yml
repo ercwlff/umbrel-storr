@@ -8,14 +8,13 @@ services:
       PROXY_AUTH_WHITELIST: "/api/*"
 
   server:
-    container_name: app-storr-maintainerr_server_1
     image: ghcr.io/jorenn92/maintainerr:2.5.0
-    user: "1000:1000"
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=${TZ:-UTC}
+    user: "1000:1000"
     volumes:
-      - ${APP_DATA_DIR}/data:/opt/data
+      - ${APP_DATA_DIR}/data/config:/opt/data
     restart: on-failure
-
+    
