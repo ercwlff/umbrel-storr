@@ -9,12 +9,12 @@ services:
 
   server:
     image: ghcr.io/jorenn92/maintainerr:2.5.0
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=${TZ:-UTC}
     user: "1000:1000"
     volumes:
-      - ${APP_DATA_DIR}/data/config:/opt/data
+      - type: bind
+        source: ${APP_DATA_DIR}/data
+        target: /opt/data
+    environment:
+      - TZ=${TZ:-UTC}
     restart: on-failure
     
