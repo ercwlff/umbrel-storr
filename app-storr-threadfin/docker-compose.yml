@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: app-storr-threadfin_server_1
+      APP_PORT: 34400
+      PROXY_AUTH_WHITELIST: "/api/*"
+
+  server:
+    image: fyb3roptik/threadfin:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=${TZ:-UTC}
+    volumes:
+      - ${APP_DATA_DIR}/data/conf:/home/threadfin/conf
+      - ${APP_DATA_DIR}/data/temp:/tmp/threadfin
+    restart: on-failure 

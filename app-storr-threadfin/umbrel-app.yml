@@ -1,0 +1,34 @@
+manifestVersion: 1
+id: threadfin
+category: media
+name: Threadfin
+version: "1.2.26"
+tagline: M3U Proxy for Plex DVR and Emby/Jellyfin Live TV
+icon: https://github.com/Threadfin/Threadfin/blob/main/html/img/threadfin.png
+description: >-
+  Threadfin is an M3U proxy for Plex DVR and Emby/Jellyfin Live TV, based on xTeVe.
+  It allows you to merge external M3U files, manage channels, and provides buffer streaming with HLS support.
+
+
+  Features include:
+  - Merge external M3U and XMLTV files
+  - Automatic M3U and XMLTV updates
+  - Channel management with filtering and mapping
+  - Buffer streaming with HLS/M3U8 support
+  - Compatible with Plex, Emby, and Jellyfin EPG
+
+developer: Threadfin
+website: https://github.com/Threadfin/Threadfin
+dependencies: []
+repo: https://github.com/Threadfin/Threadfin
+support: https://github.com/Threadfin/Threadfin/issues
+port: 34400
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: ercwlff
+submission: https://github.com/Threadfin/Threadfin 
