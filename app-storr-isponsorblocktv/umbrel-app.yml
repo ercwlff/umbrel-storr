@@ -1,0 +1,34 @@
+manifestVersion: 1
+id: app-storr-isponsorblocktv
+category: media
+name: iSponsorBlockTV
+version: "1.0.0"
+tagline: Skip YouTube sponsorships on your Apple TV
+icon: https://raw.githubusercontent.com/dmunozv04/iSponsorBlockTV/main/public/logo.png
+description: >-
+  iSponsorBlockTV is a proxy server that allows you to skip sponsorships, intros, and other segments in YouTube videos on your Apple TV.
+  It uses the SponsorBlock database to automatically skip unwanted segments in videos.
+
+
+  Features:
+  - Skip sponsorships, intros, and outros
+  - Uses SponsorBlock's community-driven database
+  - Easy to set up with Apple TV
+  - No YouTube account required
+  - Automatic segment skipping
+
+developer: dmunozv04
+website: https://github.com/dmunozv04/iSponsorBlockTV
+dependencies: []
+repo: https://github.com/dmunozv04/iSponsorBlockTV
+support: https://github.com/dmunozv04/iSponsorBlockTV/issues
+port: 8080
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: ercwlff
+submission: https://github.com/dmunozv04/iSponsorBlockTV 
